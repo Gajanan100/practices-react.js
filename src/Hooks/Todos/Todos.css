@@ -1,0 +1,31 @@
+.container {
+    position: relative; 
+    width: 300px; 
+    margin: 0 auto; 
+}
+
+.g_input_text {
+    position: relative; 
+    margin-top: 20px; 
+}
+
+.g_input_text input, h4 {
+    outline: none;
+    width: calc(100% - 40px); 
+    padding: 10px; 
+}
+
+.g_input_text span {
+    position: absolute;
+    right: 30px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    cursor: pointer;
+}
+
+.g_show_item{
+    border: 1px solid black;
+    padding: 1px 3px 1px 3px;
+    align-items: center;
+    
+}
